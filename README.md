@@ -104,4 +104,15 @@ Payment APIs will comply with industry security standards (e.g., PCI DSS) to han
 
 Implementing these security measures helps protect user data, secure transactions, prevent unauthorized actions, and maintain a safe and reliable platform for all users.
 
+## CI/CD Pipeline
+
+A Continuous Integration and Continuous Deployment (CI/CD) pipeline automates the process of building, testing, and deploying code changes. This ensures that new features, bug fixes, and updates are delivered to users quickly, reliably, and with minimal manual intervention.  
+
+Implementing CI/CD improves development efficiency by catching issues early through automated tests, enforcing consistent build processes, and enabling rapid deployment to production or staging environments.
+
+For this project, tools such as **GitHub Actions** will be used to automate testing and deployment workflows. **Docker** will be used to containerize the application, ensuring consistent environments across development, staging, and production. Additional tools like **Heroku**, **AWS**, or **DigitalOcean** can be integrated for streamlined deployment and scaling.
+
+By setting up a robust CI/CD pipeline, the team can maintain high code quality, reduce deployment risks, and deliver new features to users faster and more reliably.
+
+
 

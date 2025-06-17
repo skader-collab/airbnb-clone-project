@@ -80,3 +80,28 @@ Guests can search for properties based on location, price, amenities, and availa
 ### Admin Dashboard
 Admins can manage users, properties, bookings, and payments from a centralized dashboard. This feature supports moderation and ensures the platform runs smoothly and securely.
 
+## API Security
+
+Ensuring the security of the backend APIs is critical for protecting sensitive user information, preventing unauthorized access, and maintaining trust in the platform. The following key security measures will be implemented:
+
+### Authentication
+All API endpoints will require user authentication, typically using token-based methods such as JWT (JSON Web Tokens). This ensures that only verified users can access protected resources and perform actions such as booking a property or managing listings.
+
+### Authorization
+Role-based access control will be enforced to ensure that users can only perform actions they are permitted to. For example, guests can book properties but cannot edit property details, while owners can manage their own listings but not those of others.
+
+### Input Validation and Data Sanitization
+All incoming data will be validated and sanitized to prevent common security vulnerabilities such as SQL injection and cross-site scripting (XSS). This protects the database and application integrity.
+
+### Rate Limiting and Throttling
+API rate limiting will be applied to prevent abuse and protect against brute force attacks. This ensures fair usage and prevents any single user from overwhelming the server.
+
+### HTTPS and Data Encryption
+All API requests and responses will be transmitted over HTTPS to encrypt data in transit. This prevents sensitive information like passwords and payment details from being intercepted.
+
+### Secure Payments
+Payment APIs will comply with industry security standards (e.g., PCI DSS) to handle transactions safely, ensuring users' financial data remains secure.
+
+Implementing these security measures helps protect user data, secure transactions, prevent unauthorized actions, and maintain a safe and reliable platform for all users.
+
+
